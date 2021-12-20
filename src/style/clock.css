@@ -1,0 +1,63 @@
+.clock {
+	/* Make the clock a rectangle */
+	height: 400px;
+	width: 400px;
+
+	/* Create a circle by adding border-radius */
+	border-radius: 50%;
+
+	/* Display the border to resemble an analog clock */
+	background-color: inherit;
+	border: 2px solid black;
+
+
+	/* Position the circle */
+	margin-left: 100px;
+	margin-top: 50px;
+
+	/* Reset all hands to 12:00:00 */
+	transform: rotate(-90deg);
+}
+
+.digital_time {
+	transform: rotate(90deg);
+	position: relative;
+
+	top: 45%;
+	right: 25%;
+	
+}
+
+/* Define the basic structure of the hands */
+.hand {
+	/* Positioning the hands */
+	position: absolute;
+	border:  1px solid black;
+
+	top: 50%;
+	left: 50%;
+
+	/* Set the rotate origin to be the center of the clock */
+	transform-origin: 0% 0%;
+}
+
+/* Assign different width to hands so they can be identified  */
+.min, .second {
+	width: 150px;
+}
+
+
+.hour {
+	width: 80px;
+}
+
+.information_panel {
+	/* Rotate the information panel so that it is readable since it is a child component of clock  */
+	transform: rotate(90deg);
+
+	/* Posistioning the panel */
+	position: absolute;
+	right: 0;
+	top: 150%;
+
+}
