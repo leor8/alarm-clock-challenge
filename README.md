@@ -14,3 +14,7 @@ Installs all the required modules from create-react-app command
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Alternatives
+
+Visit https://alarm-clock-challenge.herokuapp.com/ for the live version
