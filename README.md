@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Installs all the required modules fromm create-react-app command
+Installs all the required modules from create-react-app command
 
 ### `npm start`
 
